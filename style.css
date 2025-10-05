@@ -1,0 +1,125 @@
+/* General Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background-color: #121212; /* Dark background */
+    color: #e0e0e0; /* Light grey text */
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1100px;
+    padding: 20px 0;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Orbitron', sans-serif; /* Techy, modern font for headings */
+}
+
+/* Header & Navigation */
+header {
+    background-color: #1f1f1f;
+    border-bottom: 3px solid #e10600; /* F1 red accent */
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.8rem;
+    color: #e10600;
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+header nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+header nav a:hover {
+    color: #e10600;
+}
+
+/* Hero Section */
+#hero {
+    background: url('https://images.unsplash.com/photo-1608253684274-20a2e3a1f2d2?q=80&w=2070') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+    text-shadow: 2px 2px 4px #000;
+}
+
+#hero h2 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+/* Content Sections */
+section {
+    padding: 40px 0;
+    border-bottom: 1px solid #333;
+}
+
+section h3 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+
+/* Driver Profiles */
+.driver-profile {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.driver {
+    background-color: #1f1f1f;
+    padding: 20px;
+    border-radius: 8px;
+    width: 45%;
+    border-left: 3px solid #e10600;
+}
+
+.driver h4 {
+    margin-top: 0;
+    color: #e10600;
+}
+
+/* Car Section */
+#car img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #1f1f1f;
+    margin-top: 20px;
+}
