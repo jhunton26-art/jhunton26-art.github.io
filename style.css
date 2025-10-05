@@ -21,7 +21,7 @@ h1, h2, h3, h4 {
 /* Header & Navigation */
 header {
     background-color: #1f1f1f;
-    border-bottom: 3px solid #e10600; /* F1 red accent */
+    border-bottom: 3px solid #9027B8; /* Neon purple accent */
     padding: 1rem 0;
     position: sticky;
     top: 0;
@@ -59,7 +59,7 @@ header nav a {
 }
 
 header nav a:hover {
-    color: #e10600;
+    color: #9027B8;
 }
 
 /* Hero Section */
@@ -101,12 +101,12 @@ section h3 {
     padding: 20px;
     border-radius: 8px;
     width: 45%;
-    border-left: 3px solid #e10600;
+    border-left: 3px solid #9027B8;
 }
 
 .driver h4 {
     margin-top: 0;
-    color: #e10600;
+    color: #9027B8;
 }
 
 /* Car Section */
