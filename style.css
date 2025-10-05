@@ -155,3 +155,35 @@ footer {
     transform: translate(0,0) skew(5deg);
   }
 }
+/* Race Calendar Page Styling */
+.race-calendar-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+
+.race-calendar-table th, .race-calendar-table td {
+    padding: 15px;
+    text-align: left;
+}
+
+.race-calendar-table thead {
+    background-color: #2a1a3f; /* Lighter matte purple for header */
+}
+
+.race-calendar-table th {
+    color: #0AFAD9; /* Electric Teal for header text */
+    font-family: 'Orbitron', sans-serif;
+}
+
+.race-calendar-table tbody tr {
+    border-bottom: 1px solid #3a2a4f; /* Purple separator */
+}
+
+.race-calendar-table tbody tr:nth-child(even) {
+    background-color: #241438; /* Slightly different shade for alternating rows */
+}
+
+.race-calendar-table tbody tr:hover {
+    background-color: #4a2969;
+}
