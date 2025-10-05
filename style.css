@@ -139,3 +139,19 @@ footer {
     height: 50px; /* Adjust size as needed */
     margin-right: 15px;
 }
+/* Glitch Animation for Main Heading */
+#hero h2 {
+    animation: glitch 1s linear infinite;
+}
+
+@keyframes glitch{
+  2%,64%{
+    transform: translate(2px,0) skew(0deg);
+  }
+  4%,60%{
+    transform: translate(-2px,0) skew(0deg);
+  }
+  62%{
+    transform: translate(0,0) skew(5deg);
+  }
+}
